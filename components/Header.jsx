@@ -22,7 +22,7 @@ export default function Header() {
                             <Link href="/">ACCUEIL</Link>
                         </li>
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
-                            <Link href="/gallery">ACTIVITE</Link>
+                            <Link href="/gallery">SERVICES</Link>
                         </li>
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
                             <Link href="/">PRIX</Link>
