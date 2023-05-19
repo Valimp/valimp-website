@@ -7,7 +7,7 @@ export default function Home() {
     <ScreenLayout>
       <div className="h-screen w-3/5 flex flex-col justify-center">
 
-        <GlassCard>
+        <GlassCard padding={16}>
           <p className="font-black text-6xl mb-3">Bonjour <span className="text-coral">!</span></p>
           <h1 className="font-black text-2xl">Je suis Valimp,</h1>
           <h2 className="font-black text-2xl text-yellow">Développeur web et mobile</h2>

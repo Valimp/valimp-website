@@ -19,13 +19,13 @@ export default function Header() {
                 <nav className="h-full">
                     <ul className="h-full flex flex-col items-center justify-center w-full p-4 space-y-4">
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
-                            <Link href="/">HOME</Link>
+                            <Link href="/">ACCUEIL</Link>
                         </li>
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
-                            <Link href="/gallery">GALLERY</Link>
+                            <Link href="/gallery">ACTIVITE</Link>
                         </li>
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
-                            <Link href="/">PRICING</Link>
+                            <Link href="/">PRIX</Link>
                         </li>
                         <li className="hover:text-coral hover:scale-110 ease-in-out duration-300 p-2">
                             <Link href="/">CONTACT</Link>
@@ -34,8 +34,8 @@ export default function Header() {
                 </nav>
             </div>
             <div className="w-full text-lightGrey text-xs flex flex-col justify-center items-center flex-1">
-                <h3 className="font-black">Profesionnal development</h3>
-                <h3 className="font-bold">By Valentin Chauvet</h3>
+                <h3 className="font-black">2023 - Copyright</h3>
+                <h3 className="font-bold">Par Valentin Chauvet</h3>
             </div>
         </header>
     )

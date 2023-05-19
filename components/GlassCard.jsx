@@ -1,6 +1,6 @@
-export default function GlassCard({ children, width, height }) {
+export default function GlassCard({ children, width, height, padding }) {
     return (
-        <div className={`rounded-3xl shadow backdrop-blur-sm p-16 flex flex-col justify-around w-${ width } h-${ height }`}>
+        <div className={`m-3 rounded-3xl shadow backdrop-blur-sm p-${padding} flex flex-col justify-around w-${ width } h-${ height }`}>
           { children }
         </div>
     )
