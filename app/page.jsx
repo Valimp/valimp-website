@@ -1,9 +1,10 @@
 import Badge from "@/components/Badge";
 import GlassCard from "@/components/GlassCard";
+import ScreenLayout from "@/components/ScreenLayout";
 
 export default function Home() {
   return (
-    <div className="text-white h-screen w-full bg-home bg-cover flex flex-row justify-center">
+    <ScreenLayout>
       <div className="h-screen w-3/5 flex flex-col justify-center">
 
         <GlassCard>
@@ -18,6 +19,6 @@ export default function Home() {
         </GlassCard>
 
       </div>
-    </div>
+    </ScreenLayout>
   )
 }

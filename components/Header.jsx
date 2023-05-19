@@ -22,7 +22,7 @@ export default function Header() {
                             <Link href="/">HOME</Link>
                         </li>
                         <li className="hover:text-yellow hover:scale-110 ease-in-out duration-300 p-2">
-                            <Link href="/">GALLERY</Link>
+                            <Link href="/gallery">GALLERY</Link>
                         </li>
                         <li className="hover:text-yellow hover:scale-110 ease-in-out duration-300 p-2">
                             <Link href="/">PRICING</Link>
